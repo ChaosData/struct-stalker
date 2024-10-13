@@ -1,0 +1,8 @@
+settings set target.x86-disassembly-flavor intel
+command script import struct-stalker/__init__.py
+
+# track local var t of bar()
+struct-stalker -f bar -l t
+# start binary, pass {"5"} as argv
+struct-stalker -s 5
+

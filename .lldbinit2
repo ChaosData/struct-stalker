@@ -1,0 +1,7 @@
+settings set target.x86-disassembly-flavor intel
+
+command script import struct-stalker/__init__.py
+#struct-stalker -f foo -l a
+struct-stalker -f bar -l t
+#struct-stalker -f bar2 tt
+struct-stalker -s 5
